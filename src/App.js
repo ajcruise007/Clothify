@@ -1,45 +1,9 @@
 
-import './App.css';
+import Homepage from './pages/homepage/homepage.component';
+import './App.css'
 
 function App() {
-  return (
-    <div className="homepage">
-      <div className="menu">
-        <div className="menu-item">
-          <div className="content">
-            <h1 className="title">Hats</h1>
-            <span  className ="subtitle">Shop Now</span>
-          </div>
-        </div>
-        <div className="menu-item">
-          <div className="content">
-            <h1 className="title">Trousers</h1>
-            <span  className ="subtitle">Shop Now</span>
-          </div>
-        </div>
-        <div className="menu-item">
-          <div className="content">
-            <h1 className="title">Shirts</h1>
-            <span  className ="subtitle">Shop Now</span>
-          </div>
-        </div>
-        <div className="menu-item">
-        <div className="content">
-            <h1 className="title">Sneakers</h1>
-            <span className ="subtitle">Shop Now</span>
-          </div>
-        </div>
-        <div className="menu-item">
-        <div className="content">
-            <h1 className="title">Gloves</h1>
-            <span  className ="subtitle">Shop Now</span>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  );
+  return <Homepage />
 }
 
 export default App;
