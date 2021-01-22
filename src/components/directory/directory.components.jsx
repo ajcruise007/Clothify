@@ -1,7 +1,7 @@
 import React ,{useState} from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 import './directory.styles.scss';
-import sections from '../../data/sections.homepage';
+import sections from './sections.data';
 
 
 function Directory(){
