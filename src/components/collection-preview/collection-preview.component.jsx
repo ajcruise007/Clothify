@@ -8,7 +8,7 @@ import './collection-preview.styles.scss'
         <div className="preview">
             {items
             .filter((item, idx) => idx < 4)
-            .map(item => <CollectionItem name={item.name} imageUrl={item.imageUrl} price={item.price}></CollectionItem>)}
+            .map(item => <CollectionItem key={item.id} item={item}></CollectionItem>)}
 
         </div>
     </div>
