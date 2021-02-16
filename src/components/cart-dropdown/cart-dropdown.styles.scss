@@ -13,9 +13,25 @@
 
     .cart-items{
         height: 240px;
-        overflow: scroll;
+        overflow-y: scroll;
         display: flex;
         flex-direction: column;
+        &::-webkit-scrollbar {
+            width: 5px;
+            // background-color: white;
+            display: none;
+        }
+        &:hover{
+            &::-webkit-scrollbar {
+                display: flex;
+            }
+        }
+        &::-webkit-scrollbar-thumb{
+            width: 5px;
+            background-color: darkgrey;
+            outline: 1px solid slategrey;
+            height: 6px;
+        }
     }
     button{
         margin-top: auto;
