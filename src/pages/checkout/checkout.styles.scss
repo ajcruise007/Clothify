@@ -10,20 +10,32 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        height: 40px;
-        border-bottom: 1px solid darkgrey
-    }
+        padding: 10px 0;
+        // height: 40px;
+        border-bottom: 1px solid darkgrey;
+
+        .header-block{
+            text-transform: capitalize;
+            width: 23%;
     
+            &:last-child{
+                width: 8%;
+            }
+        }
+    }
+
     .checkout-items{
         width: 100%;
     }
-
-    .header-block{
-        width: 23%;
-        &:last-child{
-            width: 8%;
-        }
+    
+    .total-price{
+        margin-top: 30px;
+        font-size: 36px;
+        margin-left: auto;
     }
+    
+
+    
 
     
 }
