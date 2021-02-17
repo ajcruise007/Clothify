@@ -16,6 +16,11 @@
         overflow-y: scroll;
         display: flex;
         flex-direction: column;
+
+        .empty-message{
+            text-align: center;
+        }
+
         &::-webkit-scrollbar {
             width: 5px;
             // background-color: white;
