@@ -7,8 +7,7 @@ import { selectCollectionsToArray } from '../../redux/shop/shop.selectors';
 
 
 const CollectionsOverview = ({collections}) =>{ 
-    // console.log('log re baba',collections[collection].id)
-    console.log('co',collections);
+  
     collections.map(collection => {console.log(collection)})
     return (
     <div className="collections-overview">
