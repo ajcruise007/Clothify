@@ -8,7 +8,7 @@ import shopReducer from './shop/shop.reducer';
 
 
 const persistConfig = {
-    key: root, 
+    key: 'root', 
     storage: storage,
     whitelist: ['cart']
 }
